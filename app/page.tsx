@@ -34,6 +34,7 @@ export default function App() {
   return (
     <main>
       <h1>My todos</h1>
+      <h2>Good morning, how are you?</h2>
       <button onClick={createTodo}>+ new</button>
       <ul>
         {todos.map((todo) => (
